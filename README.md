@@ -1,6 +1,6 @@
 # OAuth2.0
 Starter Code for Auth&amp;Auth course
-# Installing the Vagrant VM for ud330 - Authentication & Authorization
+# Installing the Vagrant VM - Authentication & Authorization
 
 **Note: If you already have a vagrant machine installed from previous Udacity courses skip to the 'Fetch the Source Code and VM Configuration' section**
 
@@ -55,6 +55,10 @@ Type **ls** to ensure that you are inside the directory that contains project.py
 
 Now type **python database_setup.py** to initialize the database.
 
-Type **python lotsofmenus.py** to populate the database with restaurants and menu items. (Optional)
+Type **python lotsofmenuswithusers.py** to populate the database with restaurants and menu items.
+
+Before running the project you will need to import the client ID in the form of a JSON file and name the file **client_secrets.json**.
+
+**Creating an OAuth Client ID & Saving it as a JSON file**
 
 Type **python project.py** to run the Flask web server. In your browser visit **http://localhost:5000** to view the restaurant menu app.  You should be able to view, add, edit, and delete menu items and restaurants.

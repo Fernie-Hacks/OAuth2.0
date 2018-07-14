@@ -1,1 +1,6 @@
 client_secrets.json
+restaurantmenu.db
+.vagrant
+database_setup.pyc
+lotsofmenus.py
+restaurantmenu.db
